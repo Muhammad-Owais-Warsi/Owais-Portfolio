@@ -1,0 +1,293 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+    /* font-family: "Courier New", Courier, monospace; */
+    
+}
+.body{
+    height:100%;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+   
+    
+
+}
+
+.nav-logo {
+
+    top: -28px;
+    position: absolute;
+    left: 73px;
+
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 300px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin: 29px;
+    font-size: 23px;
+    list-style: none;
+    transition: all;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    color:rgb(163,163,163);
+
+}
+
+li:hover {
+    color:rgb(53,135,243);
+    transform: scale(1.01);
+    cursor: pointer;
+    text-decoration: underline;
+    
+
+}
+
+.main-body{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+
+.body-text{
+    position: relative;
+    left:3.813rem;
+    transition: all;
+    
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    position: relative;
+    top:71px;
+    
+}
+
+.about {
+  
+    width: 452px;
+    height: 461px;
+    font-size: 22px;
+}
+
+.img-about {
+    width:30%;
+    
+}
+
+
+.text-about {
+    position: relative;
+    left: -210px;
+    top: 42px;
+}
+
+.about-head {
+    position: relative;
+    left: -321px;
+}
+
+
+.project-section {
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 437px;
+   
+}
+
+.project-section .heading {
+    color:rgb(53,135,243);
+    
+
+}
+
+
+.project-section a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    
+
+}
+
+.view-all a:hover {
+    text-decoration: underline;
+}
+
+.box{
+    height: 332px;
+    width: 290px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 13px blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    object-fit: contain;
+    transition: all;
+    transition-timing-function: ease;
+    transition-duration: 1.2s;
+    margin: 75px;
+}
+.box:hover {
+    transform: scale(1.1);
+    background-color:rgb(84,96,249);
+    color:rgb(224,224,224);
+}
+
+
+.amazon-desc {
+    margin-top: -18px;
+    width: 282px;
+    font-size: 15px;
+}
+
+.contact-section {
+    border:2px sold red;
+    height:473px; 
+    position: relative; 
+    top:588px;
+    background-color: rgb(224,224,224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.email {
+    font-size: 23px;
+    background-color: white;
+    height: 49px;
+    width: 213px;
+    text-align: center;
+    /* justify-items: center; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all;
+    transition-timing-function: ease;
+    transition-duration: 1.5s;
+    color:rgb(84,96,249);
+    border-radius:21px;
+    position: relative;
+    top:13px;
+}
+
+
+.email:hover {
+    cursor: pointer;
+    color:rgb(224,224,224);
+    background-color:rgb(84,96,249);
+}
+
+
+
+.social {
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    position:relative;
+    top:81px;
+    width:700px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 59px;
+    width: 61px;
+}
+
+i {
+    font-size:35px;
+
+}
+
+.social div {
+    transition: all;
+    transition-duration: 1.1s;
+    transition-timing-function: ease;
+}
+
+.social a {
+    margin:-28px;
+}
+ 
+.social div:hover {
+    transform: scale(1.1);
+    background-color:rgb(84,96,249);
+    cursor: pointer;
+}
+
+.social a {
+    text-decoration: none;
+    color:black;
+}
+
+.copyright {
+    position: relative;
+    top: 113px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright h2 {
+    color:rgb(163,163,163);
+}
+
+.copyright h5 {
+    color:rgb(163,163,163);
+    font-size: 12px;
+    margin:10px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+  
+::-webkit-scrollbar-thumb {
+    background:rgb(84,96,249);
+}
+
+
+  
+  
+  
